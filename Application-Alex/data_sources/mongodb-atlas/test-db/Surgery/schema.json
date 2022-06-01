@@ -1,0 +1,65 @@
+{
+    "properties": {
+        "EndTime": {
+            "bsonType": "string"
+        },
+        "GRSN": {
+            "bsonType": "string"
+        },
+        "Notes": {
+            "bsonType": "string"
+        },
+        "PatientId": {
+            "bsonType": "string"
+        },
+        "Procedure": {
+            "bsonType": "object",
+            "properties": {
+                "ID": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "StartTime": {
+            "bsonType": "string"
+        },
+        "State": {
+            "bsonType": "string"
+        },
+        "Surgeon": {
+            "bsonType": "object",
+            "properties": {
+                "ID": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "SurgeryScheduleId": {
+            "bsonType": "string"
+        },
+        "SyncState": {
+            "bsonType": "string"
+        },
+        "TenantId": {
+            "bsonType": "string"
+        },
+        "Theatre": {
+            "bsonType": "object",
+            "properties": {
+                "ID": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "TenantId"
+    ],
+    "title": "Surgery"
+}
