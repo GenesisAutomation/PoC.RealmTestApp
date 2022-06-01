@@ -34,13 +34,13 @@
                 }
             }
         },
+        "SurgeonId": {
+            "bsonType": "int"
+        },
         "SurgeryScheduleId": {
             "bsonType": "string"
         },
         "SyncState": {
-            "bsonType": "string"
-        },
-        "TenantId": {
             "bsonType": "string"
         },
         "Theatre": {
@@ -58,8 +58,5 @@
             "bsonType": "string"
         }
     },
-    "required": [
-        "TenantId"
-    ],
     "title": "Surgery"
 }
