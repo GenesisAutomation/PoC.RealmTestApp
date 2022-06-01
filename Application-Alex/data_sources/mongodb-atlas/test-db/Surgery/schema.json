@@ -59,7 +59,7 @@
         }
     },
     "required": [
-        "TenantId"
+        "_partition"
     ],
     "title": "Surgery"
 }
