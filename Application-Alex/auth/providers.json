@@ -8,7 +8,9 @@
         "name": "custom-token",
         "type": "custom-token",
         "config": {
-            "audience": [],
+            "audience": [
+                "23khlqvqr8ikt4sltfhmqjfdhq"
+            ],
             "jwkURI": "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_4pflopbtT/.well-known/jwks.json",
             "signingAlgorithm": "",
             "useJWKURI": true
@@ -16,7 +18,24 @@
         "secret_config": {
             "signingKeys": []
         },
-        "disabled": false
+        "disabled": false,
+        "metadata_fields": [
+            {
+                "required": false,
+                "name": "cognito:username",
+                "field_name": "username"
+            },
+            {
+                "required": false,
+                "name": "cognito:username",
+                "field_name": "email"
+            },
+            {
+                "required": false,
+                "name": "custom:tenant",
+                "field_name": "tenant"
+            }
+        ]
     },
     "local-userpass": {
         "name": "local-userpass",
