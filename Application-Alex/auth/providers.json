@@ -9,9 +9,9 @@
         "type": "custom-token",
         "config": {
             "audience": [
-                "23khlqvqr8ikt4sltfhmqjfdhq"
+                "9e2td3i0qfu6amct8jom6fqe"
             ],
-            "jwkURI": "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_4pflopbtT/.well-known/jwks.json",
+            "jwkURI": "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_nCV8ZwyiJ/.well-known/jwks.json",
             "signingAlgorithm": "",
             "useJWKURI": true
         },
@@ -34,6 +34,16 @@
                 "required": false,
                 "name": "custom:tenant",
                 "field_name": "tenant"
+            },
+            {
+                "required": false,
+                "name": "username",
+                "field_name": "username"
+            },
+            {
+                "required": false,
+                "name": "email",
+                "field_name": "email"
             }
         ]
     },
