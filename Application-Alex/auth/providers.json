@@ -8,10 +8,9 @@
         "name": "custom-token",
         "type": "custom-token",
         "config": {
-            "audience": [
-                "9e2td3i0qfu6amct8jom6fqe"
-            ],
+            "audience": [],
             "jwkURI": "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_nCV8ZwyiJ/.well-known/jwks.json",
+            "requireAnyAudience": false,
             "signingAlgorithm": "",
             "useJWKURI": true
         },
