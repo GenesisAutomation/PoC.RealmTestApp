@@ -8,8 +8,10 @@
         "name": "custom-token",
         "type": "custom-token",
         "config": {
-            "audience": [],
-            "jwkURI": "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_4pflopbtT/.well-known/jwks.json",
+            "audience": [
+                "2n8752nvgi7ap19kbnvq14mpb0"
+            ],
+            "jwkURI": "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_Y2De3s4M6/.well-known/jwks.json",
             "requireAnyAudience": false,
             "signingAlgorithm": "",
             "useJWKURI": true
@@ -30,7 +32,7 @@
                 "field_name": "email"
             },
             {
-                "required": true,
+                "required": false,
                 "name": "custom:tenant",
                 "field_name": "tenant"
             },
@@ -40,7 +42,7 @@
                 "field_name": "username"
             },
             {
-                "required": true,
+                "required": false,
                 "name": "email",
                 "field_name": "email"
             }
