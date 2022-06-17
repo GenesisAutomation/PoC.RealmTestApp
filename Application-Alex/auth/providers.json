@@ -30,7 +30,7 @@
                 "field_name": "email"
             },
             {
-                "required": false,
+                "required": true,
                 "name": "custom:tenant",
                 "field_name": "tenant"
             },
@@ -40,7 +40,7 @@
                 "field_name": "username"
             },
             {
-                "required": false,
+                "required": true,
                 "name": "email",
                 "field_name": "email"
             }
