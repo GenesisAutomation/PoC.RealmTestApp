@@ -57,6 +57,6 @@
             "runConfirmationFunction": false,
             "runResetFunction": true
         },
-        "disabled": false
+        "disabled": true
     }
 }
