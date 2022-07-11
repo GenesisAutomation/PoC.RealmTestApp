@@ -10,10 +10,10 @@
         "type": "string",
         "permissions": {
             "read": {
-                "%%partition": "%%user.tenant"
+                "%%partition": "%%user.data.tenant"
             },
             "write": {
-                "%%partition": "%%user.tenant"
+                "%%partition": "%%user.data.tenant"
             }
         }
     }
