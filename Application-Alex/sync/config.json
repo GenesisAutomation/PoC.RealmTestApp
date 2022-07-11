@@ -9,8 +9,12 @@
         "key": "_partition",
         "type": "string",
         "permissions": {
-            "read": true,
-            "write": true
+            "read": {
+                "%%partition": "%%user.tenant"
+            },
+            "write": {
+                "%%partition": "%%user.tenant"
+            }
         }
     }
 }
